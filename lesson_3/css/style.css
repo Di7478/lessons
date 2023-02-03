@@ -1,0 +1,50 @@
+@import url('reset.css');
+
+
+.title {
+    color: blue;
+}
+
+.nav {
+    color:peru;
+}
+
+.nav > h2 {
+    color: red;
+}
+
+.cat p {
+    color: deeppink;
+}
+
+.morf {
+    color: blueviolet;
+}
+
+.morf .title {
+    color: rgb(228, 228, 65);
+}
+
+.taxo {
+    color: rgb(11, 107, 75);
+}
+
+.taxo .title {
+    color: rgb(233, 19, 19);
+}
+
+.protect {
+    color: rgb(95, 130, 14);
+}
+
+.protect .title {
+    color: rgb(241, 118, 219);
+}
+
+.footer .link {
+    color: rgb(255, 0, 51);
+}
+
+.link ~ p {
+    color: rgb(29, 199, 199);
+}
