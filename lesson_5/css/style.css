@@ -1,0 +1,79 @@
+@import url('reset.css');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+	font-weight: 300;
+	line-height: 1.7;
+    color: #6C757D;
+}
+
+.article {
+	max-width: 1440px;
+    margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.6;
+	color: #212529;
+}
+
+.content-one,
+.content-two,
+.content-three {
+	max-width: 816px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+.content-one__title .h1 {
+	max-width: 400px;
+	margin: 15px 0px 40px 0px;
+}
+
+.content-one__text,
+.content-two__text,
+.content-three__text {
+	margin-bottom: 25px;
+}
+
+.content-two__title .h2 {
+	max-width: 605px;
+	margin: 80px 0px 40px 0px;
+}
+
+.article__img {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.article__img img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.article__images {
+	max-width: 1240px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	font-size: 0;
+}
+
+.article__image {
+	display: inline-block;
+}
+
+.article__image img {
+	max-width: 100%;
+}
+
+.one {
+	padding-right: 15px;
+}
+
+.two {
+	padding-left: 15px;
+}
